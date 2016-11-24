@@ -1,5 +1,6 @@
 # compass
 compass用法
+* 创建一个Compass项目,compass create myproject
 
 ##编译
   * Compass的编译命令是compass compile.(该命令在项目根目录下运行，会将sass子目录中的scss文件，编译成css文件，保存在stylesheets子目录中)
