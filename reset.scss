@@ -1,0 +1,27 @@
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout";
+@import "compass/typography";
+@import "compass/utilities/";
+
+img{
+  background-image: inline-image("../images/_logo.png");
+}
+
+.clearfix { @include clearfix; }
+
+table { @include table-scaffolding; }
+
+a { @include link-colors(#00c, #0cc, #c0c, #ccc, #cc0); }
+
+#footer {
+  @include sticky-footer(54px);
+  @include stretch;
+}
+
+div {
+  @include border-radius(5px);
+  @include inline-block;
+  @include opacity(0.5);
+}
