@@ -27,7 +27,7 @@ compass用法
   * typography模块
     * @import "compass/typography"; a { @include link-colors(#00c, #0cc, #c0c, #ccc, #cc0); }
   * utilities模块
-    * import "compass/utilities/"; .clearfix { @include clearfix; }
+    * @import "compass/utilities/"; .clearfix { @include clearfix; }
     * @import "compass/utilities"; table { @include table-scaffolding; }
   * Helper函数  
     * image-width()和image-height()返回图片的宽和高,inline-image()可以将图片转为data协议的数据<br>
