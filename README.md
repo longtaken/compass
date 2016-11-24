@@ -19,4 +19,15 @@ compass用法
   * CSS3模块
     * 圆角 @import "compass/css3"; div { @include border-radius(5px); }
     * 透明 @import "compass/css3"; div { @include opacity(0.5); }
-    
+    * 行内区块 　　@import "compass/css3"; div { @include inline-block; }
+  * layout模块 
+    * 指定页面的footer部分总是出现在浏览器最底端 @import "compass/layout"; #footer { @include sticky-footer(54px); }
+    * 指定子元素占满父元素的空间 @import "compass/layout"; div { @include stretch; }
+  * typography模块
+    * @import "compass/typography"; a { @include link-colors(#00c, #0cc, #c0c, #ccc, #cc0); }
+  * utilities模块
+    * import "compass/utilities/"; .clearfix { @include clearfix; }
+    * @import "compass/utilities"; table { @include table-scaffolding; }
+  * Helper函数  
+    * image-width()和image-height()返回图片的宽和高,inline-image()可以将图片转为data协议的数据<br>
+      @import "compass"; .icon { background-image: inline-image("icon.png");}
